@@ -1,0 +1,12 @@
+{
+  "name": "check_disk_space",
+  "version": "1.0.0",
+  "description": "This tool check the free space on disk and send an alter email to the server admin.",
+  "main": "index.js",
+  "author": "Alberto Manfrinati",
+  "license": "ISC",
+  "dependencies": {
+    "diskspace": "^2.0.0",
+    "nodemailer": "^4.4.2"
+  }
+}
